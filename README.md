@@ -77,11 +77,10 @@
 		<li>Copy code python3 -m venv myenv Activate the virtual environment: bash</li>
 		<li>Copy code source myenv/bin/activate Install boto3 using the pip command:</li>
 		<li>Copy code pip install boto3 Once boto3 is installed, you can write and execute your code in the CloudShell terminal.</li>
-		<li>Virtual environments in CloudShell are ephemeral and will be discarded when you close the session. You willll need to repeat these steps each time you start a new CloudShell 			session. </li>
+		<li>Virtual environments in CloudShell are ephemeral and will be discarded when you close the session. You will need to repeat these steps each time you start a new CloudShell 			session. </li>
 
 <p>Once AWS is connected you will install a few basic packages:</p>
 
-<ul>
 	<li><strong>pyPDF2</strong>: This package is used for extracting text from PDF files.<ul>
 	<li>You can install it using the command: pip install PyPDF2.</li></ul>
 	<li><strong>sumy:</strong> This package is used for text summarization.<ul>
@@ -92,7 +91,6 @@
 		<li>You can install it using the command: pip install rake-nltk</li></ul>
 		<li><strong>levenshtein:</strong> Levenshtein Python C extension module contains functions for fast computation of: Levenshtein (edit) distance, and edit operations, string similarity, approximate median 		strings, and generally string averaging<ul>
 		<li>You can install it using the command: pip install levenshtein</li></ul>
-</ul>
 
 <p>Once you have installed these packages make sure to provide the correct folder paths for the PDF files and the summary text files before executing the script</p>
 
