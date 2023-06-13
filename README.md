@@ -8,7 +8,7 @@
 --><!-- PROJECT LOGO --></p>
 
 <p><br />
-<img alt="" src="https://github.com/prys0000/archives-textract/raw/main/SIG.png" style="height:80px; width:80px" /></p>
+<img alt="" src="https://github.com/prys0000/archives-textract/blob/main/githubja.png" /><img alt="" src="https://github.com/prys0000/archives-textract/raw/main/SIG.png" style="height:80px; width:80px" /></p>
 
 <h1><strong>archives-textract</strong></h1>
 
@@ -18,7 +18,7 @@
 <a href="https://github.com/prys0000/archives-textract/issues">Report Bug</a></p>
 <!-- TABLE OF CONTENTS -->
 
-<p>Table of Contents</p>
+<h4><strong>Table of Contents</strong></h4>
 
 <ol>
 	<li><a href="#about-the-project">About The Project</a>
@@ -41,6 +41,8 @@
 	<li><a href="#acknowledgments">Acknowledgments</a></li>
 </ol>
 <!-- ABOUT THE PROJECT -->
+
+<h2>&nbsp;</h2>
 
 <h2><strong>About The Project</strong></h2>
 
@@ -111,30 +113,30 @@
 <p style="margin-left:40px">3. Once AWS is connected you will install a few basic packages:</p>
 
 <ul>
-	<li style="margin-left: 40px;"><strong>pyPDF2</strong>: This package is used for extracting text from PDF files.
+	<li><strong>pyPDF2</strong>: This package is used for extracting text from PDF files.
 
 	<ul>
-		<li style="margin-left: 40px;">You can install it using the command: pip install PyPDF2.</li>
+		<li>You can install it using the command: pip install PyPDF2.</li>
 	</ul>
 	</li>
-	<li style="margin-left: 40px;"><strong>sumy:</strong> This package is used for text summarization.
+	<li><strong>sumy:</strong> This package is used for text summarization.
 	<ul>
-		<li style="margin-left: 40px;">You can install it using the command: pip install sumy.</li>
+		<li>You can install it using the command: pip install sumy.</li>
 	</ul>
 	</li>
-	<li style="margin-left: 40px;"><strong>openpyxl:</strong> This package is used for working with Excel files (.xlsx)
+	<li><strong>openpyxl:</strong> This package is used for working with Excel files (.xlsx)
 	<ul>
-		<li style="margin-left: 40px;">You can install it using the command: pip install openpyxl</li>
+		<li>You can install it using the command: pip install openpyxl</li>
 	</ul>
 	</li>
-	<li style="margin-left: 40px;"><strong>rake-nltk:</strong> This package is used for keyword extraction algorithm which tries to determine key phrases in a body of text by analyzing the frequency of word appearance and its co-occurrence with other words in the text pyspellchecker: This package is is designed to be easy to use to get basic spell checking.
+	<li><strong>rake-nltk:</strong> This package is used for keyword extraction algorithm which tries to determine key phrases in a body of text by analyzing the frequency of word appearance and its co-occurrence with other words in the text pyspellchecker: This package is is designed to be easy to use to get basic spell checking.
 	<ul>
-		<li style="margin-left: 40px;">You can install it using the command: pip install rake-nltk</li>
+		<li>You can install it using the command: pip install rake-nltk</li>
 	</ul>
 	</li>
-	<li style="margin-left: 40px;"><strong>levenshtein:</strong> Levenshtein Python C extension module contains functions for fast computation of: Levenshtein (edit) distance, and edit operations, string similarity, approximate median strings, and generally string averaging
+	<li><strong>levenshtein:</strong> Levenshtein Python C extension module contains functions for fast computation of: Levenshtein (edit) distance, and edit operations, string similarity, approximate median strings, and generally string averaging
 	<ul>
-		<li style="margin-left: 40px;">You can install it using the command: pip install levenshtein</li>
+		<li>You can install it using the command: pip install levenshtein</li>
 	</ul>
 	</li>
 </ul>
