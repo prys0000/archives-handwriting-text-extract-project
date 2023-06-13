@@ -89,6 +89,11 @@
 </ul>
 <p>Once you have installed these packages make sure to provide the correct folder paths for the PDF files and the summary text files before executing the script</p>
 <p>(<a href="#readme-top">back to top</a>)</p>
+<h2>&nbsp;</h2>
+</li>
+</ul>
+</li>
+</ol>
 <h2><strong>Usage</strong></h2>
 <p>The archives-textract project has combined powerful Amazon AWS Textract services with automates the extraction of text and data from scanned documents. It goes beyond traditional OCR by not only recognizing printed text but also identifying and extracting information from historical handwritten documents, enabling efficient digitization and preservation of valuable records. Textract can be leveraged for indexing documents, creating subject or topic classifications based on the extracted handwritten text, allowing for efficient organization and retrieval of information from large document collections.</p>
 <p>Using Python, we have created a workflow that automatically retrieves documents from a designated source, passes them through the Textract service for text extraction (including handwritten text), and stores the extracted information in an organized manner allowing for migration, long-term data preservation, and access to large data stores for collection analysis. Scripting enables the integration of additional functionalities such as sentiment analysis, indexing, and topic creation. This automation significantly reduces the manual efforts required for archival processing, saving time and increasing efficiency.</p>
@@ -109,7 +114,3 @@
 <h3><strong>Acknowledgments</strong></h3>
 <p>* []() * []() * []()</p>
 <p>(<a href="#readme-top">back to top</a>)</p>
-</li>
-</ul>
-</li>
-</ol>
