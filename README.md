@@ -31,7 +31,6 @@
 <li><a href="https://www.python.org/psf-landing/"><img src="https://i.redd.it/rxezjyf4ojx41.png" alt="" width="100" height="50" /></a></li>
 <li><a href="https://rapidminer.com/platform/"><img src="https://rapidminer.com/wp-content/uploads/2022/04/Homepage-1.jpg" alt="" width="100" height="50" /></a></li>
 <li><a href="https://getbootstrap.com/docs/3.4/javascript/"><img src="https://www.k2bindia.com/wp-content/uploads/2013/03/bootstrap-1.jpg" alt="" width="100" height="50" /></a></li>
-<li><a href="https://pub.dev/packages/levenshtein/versions"><img src="https://www.researchgate.net/publication/290304490/figure/fig2/AS:669500391309371@1536632740779/Levenshtein-edit-distance-between-the-strings-Levenshtein-and-Levinsteihn-showing.png" alt="" width="100" height="50" /></a></li>
 </ul>
 <p>(<a href="#readme-top">back to top</a>)</p>
 <h2><strong>Getting Started</strong></h2>
