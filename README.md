@@ -21,11 +21,18 @@
 <h4><strong>Table of Contents</strong></h4>
 
 <ol>
-	<li><a href="#about-the-project">About The Project</a><ul>
-	<li><a href="#built-with">Built With</a></li></ul>
-	<li><a href="#getting-started">Getting Started</a><ul>
-	<li><a href="#prerequisites">Prerequisites</a></li>
-	<li><a href="#installation">Installation</a></li></ul>
+	<li><a href="#about-the-project">About The Project</a>
+
+	<ul>
+		<li><a href="#built-with">Built With</a></li>
+	</ul>
+	</li>
+	<li><a href="#getting-started">Getting Started</a>
+	<ul>
+		<li><a href="#prerequisites">Prerequisites</a></li>
+		<li><a href="#installation">Installation</a></li>
+	</ul>
+	</li>
 	<li><a href="#usage">Usage</a></li>
 	<li><a href="#roadmap">Roadmap</a></li>
 	<li><a href="#contributing">Contributing</a></li>
@@ -45,27 +52,23 @@
 
 <h2><strong>Built With</strong></h2>
 
-<p><a href="https://aws.amazon.com/textract/"><img alt="" src="https://hitconsultant.net/wp-content/uploads/2019/10/Amazon-Textract.jpg" style="float:left; height:50px; margin:2px 5px; width:100px" /></a></p>
-
-<p>&nbsp;</p>
-
-<p><a href="https://www.python.org/psf-landing/"><img alt="" src="https://i.redd.it/rxezjyf4ojx41.png" style="float:left; height:50px; margin:2px 5px; width:100px" /></a></p>
-
-<p>&nbsp;</p>
-
-<p><a href="https://rapidminer.com/platform/"><img alt="" src="https://rapidminer.com/wp-content/uploads/2022/04/Homepage-1.jpg" style="float:left; height:50px; margin:2px 5px; width:100px" /></a></p>
-
-<p>&nbsp;</p>
-
-<p><a href="https://getbootstrap.com/docs/3.4/javascript/"><img alt="" src="https://www.k2bindia.com/wp-content/uploads/2013/03/bootstrap-1.jpg" style="float:left; height:50px; margin:2px 5px; width:100px" /></a></p>
-
-<p>&nbsp;</p>
-
-<p><a href="https://pub.dev/packages/levenshtein/versions"><img alt="" src="https://www.researchgate.net/publication/290304490/figure/fig2/AS:669500391309371@1536632740779/Levenshtein-edit-distance-between-the-strings-Levenshtein-and-Levinsteihn-showing.png" style="float:left; height:50px; margin:2px 5px; width:100px" /></a></p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
+<ul>
+	<li><a href="https://aws.amazon.com/textract/"><img alt="" src="https://hitconsultant.net/wp-content/uploads/2019/10/Amazon-Textract.jpg" style="float:left; height:50px; margin-left:5px; margin-right:5px; width:100px" /></a></li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li><a href="https://www.python.org/psf-landing/"><img alt="" src="https://i.redd.it/rxezjyf4ojx41.png" style="float:left; height:50px; margin-left:5px; margin-right:5px; width:100px" /></a></li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li><a href="https://rapidminer.com/platform/"><img alt="" src="https://rapidminer.com/wp-content/uploads/2022/04/Homepage-1.jpg" style="float:left; height:50px; margin-left:5px; margin-right:5px; width:100px" /></a></li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li><a href="https://getbootstrap.com/docs/3.4/javascript/"><img alt="" src="https://www.k2bindia.com/wp-content/uploads/2013/03/bootstrap-1.jpg" style="float:left; height:50px; margin-left:5px; margin-right:5px; width:100px" /></a></li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li><a href="https://pub.dev/packages/levenshtein/versions"><img alt="" src="https://www.researchgate.net/publication/290304490/figure/fig2/AS:669500391309371@1536632740779/Levenshtein-edit-distance-between-the-strings-Levenshtein-and-Levinsteihn-showing.png" style="float:left; height:50px; margin-left:5px; margin-right:5px; width:100px" /></a></li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+</ul>
 
 <p>(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
