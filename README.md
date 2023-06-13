@@ -74,50 +74,30 @@
 	<ul>
 		<li>Here&#39;s a step-by-step guide:
 		<ol>
-			<li>*Open AWS CloudShell in your AWS Management Console. Create a virtual environment using the following command:</li>
-		</ol>
-		</li>
-	</ul>
-	</li>
-</ol>
+		<li>*Open AWS CloudShell in your AWS Management Console. Create a virtual environment using the following command:</li>
+		<p style="margin-left:120px">Copy code python3 -m venv myenv Activate the virtual environment: bash</p>
 
-<p style="margin-left:120px">Copy code python3 -m venv myenv Activate the virtual environment: bash</p>
+		<p style="margin-left:120px">Copy code source myenv/bin/activate Install boto3 using the pip command:</p>
 
-<p style="margin-left:120px">Copy code source myenv/bin/activate Install boto3 using the pip command:</p>
+		<p style="margin-left:120px">Copy code pip install boto3 Once boto3 is installed, you can write and execute your code in the CloudShell terminal.</p>
 
-<p style="margin-left:120px">Copy code pip install boto3 Once boto3 is installed, you can write and execute your code in the CloudShell terminal.</p>
-
-<p style="margin-left:120px"><strong>Note:</strong> Virtual environments in CloudShell are ephemeral and will be discarded when you close the session. You&#39;ll need to repeat these steps each time you start a new CloudShell session. * If you&#39;re still experiencing issues installing boto3 in AWS CloudShell, it&#39;s recommended to reach out to AWS Support for further assistance. Handtext_comb_V4 seems to be OK but needs some post-processing improvements</p>
+		<p style="margin-left:120px">
+			
+		<strong>Note:</strong> Virtual environments in CloudShell are ephemeral and will be discarded when you close the session. You willll need to repeat these steps each time you start a new CloudShell 			session. </p>
 
 <p style="margin-left:40px">3. Once AWS is connected you will install a few basic packages:</p>
 
 <ul>
-	<li><strong>pyPDF2</strong>: This package is used for extracting text from PDF files.
-
-	<ul>
-		<li>You can install it using the command: pip install PyPDF2.</li>
-	</ul>
-	</li>
-	<li><strong>sumy:</strong> This package is used for text summarization.
-	<ul>
-		<li>You can install it using the command: pip install sumy.</li>
-	</ul>
-	</li>
-	<li><strong>openpyxl:</strong> This package is used for working with Excel files (.xlsx)
-	<ul>
-		<li>You can install it using the command: pip install openpyxl</li>
-	</ul>
-	</li>
-	<li><strong>rake-nltk:</strong> This package is used for keyword extraction algorithm which tries to determine key phrases in a body of text by analyzing the frequency of word appearance and its co-occurrence with other words in the text pyspellchecker: This package is is designed to be easy to use to get basic spell checking.
-	<ul>
-		<li>You can install it using the command: pip install rake-nltk</li>
-	</ul>
-	</li>
-	<li><strong>levenshtein:</strong> Levenshtein Python C extension module contains functions for fast computation of: Levenshtein (edit) distance, and edit operations, string similarity, approximate median strings, and generally string averaging
-	<ul>
-		<li>You can install it using the command: pip install levenshtein</li>
-	</ul>
-	</li>
+	<li><strong>pyPDF2</strong>: This package is used for extracting text from PDF files.<ul>
+	<li>You can install it using the command: pip install PyPDF2.</li></ul>
+	<li><strong>sumy:</strong> This package is used for text summarization.<ul>
+	<li>You can install it using the command: pip install sumy.</li></ul>
+	<li><strong>openpyxl:</strong> This package is used for working with Excel files (.xlsx)<ul>
+	<li>You can install it using the command: pip install openpyxl</li></ul>
+	<li><strong>rake-nltk:</strong> This package is used for keyword extraction algorithm which tries to determine key phrases in a body of text by analyzing the frequency of word appearance and its co-occurrence 	with other words in the text pyspellchecker: This package is is designed to be easy to use to get basic spell checking. <ul>
+		<li>You can install it using the command: pip install rake-nltk</li></ul>
+		<li><strong>levenshtein:</strong> Levenshtein Python C extension module contains functions for fast computation of: Levenshtein (edit) distance, and edit operations, string similarity, approximate median 		strings, and generally string averaging<ul>
+		<li>You can install it using the command: pip install levenshtein</li></ul>
 </ul>
 
 <p style="margin-left:40px">Once you have installed these packages make sure to provide the correct folder paths for the PDF files and the summary text files before executing the script.&nbsp;</p>
