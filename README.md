@@ -8,7 +8,7 @@
 --><!-- PROJECT LOGO --></p>
 
 <p><br />
-<img alt="" src="https://github.com/prys0000/archives-textract/blob/main/githubja.png" /><img alt="" src="https://github.com/prys0000/archives-textract/raw/main/SIG.png" style="height:80px; width:80px" /></p>
+<img alt="" src="https://github.com/prys0000/archives-textract/raw/main/SIG.png" style="height:80px; width:80px" /></p>
 
 <h1><strong>archives-textract</strong></h1>
 
