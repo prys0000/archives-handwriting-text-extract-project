@@ -18,7 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Carl Albert Center Archives][CAC.png]][https://www.ou.edu/content/carlalbertcenter/_jcr_content/relatedpar/textimage/image.img.png/1649863950405.png]
+[![Carl Albert Center Archives][CAC.png](https://www.ou.edu/carlalbertcenter)]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
