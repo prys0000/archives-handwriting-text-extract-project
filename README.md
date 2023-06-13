@@ -34,7 +34,7 @@
 </ul>
 <p>(<a href="#readme-top">back to top</a>)</p>
 <h2><strong>Getting Started</strong></h2>
-<p>To get a local copy up and running follow these simple example steps.</p>
+<p>To get a local copy up and running follow these simple steps.</p>
 <h3><strong>Prerequisites</strong></h3>
 <p>There are steps required to run the archive-textract scripts. First you must install some system packages using the apt-get package manager before installing textract from pypi:</p>
 <p>apt-get install python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils pstotext tesseract-ocr \ flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig libpulse-dev pip install textract</p>
