@@ -69,23 +69,17 @@
 <h4><strong>Amazon AWS Cloudshell</strong></h4>
 
 <ol>
-	<li>Create a session using your AWS credentials session = boto3.Session( aws_access_key_id=&#39;ACCESS KEY&#39;, aws_secret_access_key=&#39;SECRET ACCESS KEY&#39;, region_name=&#39;REGION&#39;</li>
-	<li>If you&#39;re unable to install boto3 directly in AWS CloudShell, you can try using a virtual environment to install and run the package.
-	<ul>
-		<li>Here&#39;s a step-by-step guide:
-		<ol>
+	<li>Create a session using your AWS credentials session = boto3.Session( aws_access_key_id=ACCESS KEY, aws_secret_access_key=SECRET ACCESS KEY, region_name=REGION</li>
+	<li>If you are unable to install boto3 directly in AWS CloudShell, you can try using a virtual environment to install and run the package.<ul>
+		<li>Here is a step-by-step guide:
+		
 		<li>*Open AWS CloudShell in your AWS Management Console. Create a virtual environment using the following command:</li>
-		<p style="margin-left:120px">Copy code python3 -m venv myenv Activate the virtual environment: bash</p>
+		<li>Copy code python3 -m venv myenv Activate the virtual environment: bash</li>
+		<li>Copy code source myenv/bin/activate Install boto3 using the pip command:</li>
+		<li>Copy code pip install boto3 Once boto3 is installed, you can write and execute your code in the CloudShell terminal.</li>
+		<li>Virtual environments in CloudShell are ephemeral and will be discarded when you close the session. You willll need to repeat these steps each time you start a new CloudShell 			session. </li>
 
-		<p style="margin-left:120px">Copy code source myenv/bin/activate Install boto3 using the pip command:</p>
-
-		<p style="margin-left:120px">Copy code pip install boto3 Once boto3 is installed, you can write and execute your code in the CloudShell terminal.</p>
-
-		<p style="margin-left:120px">
-			
-		<strong>Note:</strong> Virtual environments in CloudShell are ephemeral and will be discarded when you close the session. You willll need to repeat these steps each time you start a new CloudShell 			session. </p>
-
-<p style="margin-left:40px">3. Once AWS is connected you will install a few basic packages:</p>
+<p>Once AWS is connected you will install a few basic packages:</p>
 
 <ul>
 	<li><strong>pyPDF2</strong>: This package is used for extracting text from PDF files.<ul>
@@ -100,7 +94,7 @@
 		<li>You can install it using the command: pip install levenshtein</li></ul>
 </ul>
 
-<p style="margin-left:40px">Once you have installed these packages make sure to provide the correct folder paths for the PDF files and the summary text files before executing the script.&nbsp;</p>
+<p>Once you have installed these packages make sure to provide the correct folder paths for the PDF files and the summary text files before executing the script</p>
 
 <p>(<a href="#readme-top">back to top</a>)</p>
 <!-- USAGE EXAMPLES -->
