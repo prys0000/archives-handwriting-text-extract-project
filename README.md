@@ -33,7 +33,7 @@ AWS_REGION=<your desired region>
 S3_BUCKET_NAME=<your-s3-bucket-name>
 ```
 
-Load the 'credentials.txt' file and bucket.
+Load the ['credentials.txt'](https://github.com/prys0000/archives-textract/blob/main/credentials.properties) file and bucket.
 ```bash
 with open('credentials.txt', 'r') as file:
     credentials = file.readlines()
