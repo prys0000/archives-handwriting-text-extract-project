@@ -1,0 +1,23 @@
+multipyasynch-standard_notes (compiles handwritten, typewritten, forms (defined in other) - text content to one excel)
+
+
+1. The code begins by importing the necessary packages and libraries. These include boto3 for interacting with AWS services, re for regular expressions, nltk for natural language processing, SpellChecker from the spellchecker library for spell checking, time for adding delays in the script, pandas for data manipulation and analysis, and Workbook from the openpyxl library for working with Excel files.
+
+
+2.The code reads the AWS credentials and S3 bucket name from a file called credentials.txt. It opens the file in read mode ('r') using the open() function and reads its contents into a list called credentials. Each line of the file becomes an item in the list.
+
+3. The script extracts the AWS access key ID, AWS secret access key, and S3 bucket name from the credentials list. It iterates over each line in the credentials list and checks if it starts with the corresponding key (e.g., AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, S3_BUCKET_NAME). If a match is found, it splits the line at the = symbol and retrieves the value (the part after the =). The strip() method is used to remove any leading or trailing whitespace. If any of the required credentials are missing, it raises a ValueError with an error message.
+
+4. Next, the code sets the AWS region, which is the geographical region where the AWS services will be used. In this case, the region is set to "us-east-1". You can replace it with your desired region. It also creates an Amazon Textract client (textract) and an S3 client (s3_client) using the boto3.client() function. The region_name parameter is set to the desired AWS region.
+
+5. The code initializes the NLTK (Natural Language Toolkit) library by downloading the necessary resources. It downloads the punkt tokenizer and the stopwords corpus, which are used for text processing and analysis. It also creates a SpellChecker instance from the spellchecker library. This will be used for spell checking purposes.
+
+6. The script uses the S3 client to list all the objects in the specified S3 bucket (s3_bucket_name). The list of objects is stored in the response variable. An empty list called data is created to store the extracted text data.
+
+7. The code iterates over the objects in the S3 bucket. It retrieves the object key for each object and checks if it exists (if object_key:). Inside the if block, it calls Amazon Textract to start a document analysis job for the current object. It uses the start_document_text_detection method and provides the S3 bucket name and object key for the document to be analyzed. The response is stored in the response variable.
+
+8. After starting the document analysis job, the script enters a loop to poll for the completion of the job. It uses the get_document_text_detection method to check the status of the job using the JobId obtained from the previous step. It retrieves the status from the response and checks if it is either 'SUCCEEDED' or 'FAILED'. If the status is one of these, it breaks out of the loop. Otherwise, it waits for 5 seconds using time.sleep(5) before polling again.
+
+9. If the status of the document analysis job is 'SUCCEEDED', the script retrieves the results of the job, specifically the Blocks containing the extracted text. It iterates over the blocks and checks if the BlockType is 'LINE'. If it is, it retrieves the Text from the block and appends it to the text variable. Finally, it appends a dictionary containing the file title (object key) and the extracted text to the data list.
+
+10. After extracting the text data and storing it in the data list, the script converts the list to a pandas DataFrame using pd.DataFrame(data). It then saves the DataFrame to an Excel file named 'text_data.xlsx' using the to_excel method. The index=False parameter is used to exclude the index column from the Excel file. Finally, it prints a message indicating that the text data has been saved to the Excel file.
