@@ -109,9 +109,9 @@ pip install openpyxl
 
 
 # Extracting multi-page handwritten and typewritten text
-The python script [multisync.py](https://gitlab.com/-/ide/project/cac-archives/\archives-textract\extracting\multipgexcelsynch.py)  demonstrates the usage of Amazon Textract, Amazon S3, NLTK, and the SpellChecker package to extract text from documents stored in an S3 bucket, perform text cleaning, and save the extracted and cleaned text to Excel files.
+The python script [multisync.py](https://github.com/prys0000/archives-textract/blob/6a8b31a01a66423b6c66f4a21bdddb8b1e12062e/scripts/multi-page-sync.py)  demonstrates the usage of Amazon Textract, Amazon S3, NLTK, and the SpellChecker package to extract text from documents stored in an S3 bucket, perform text cleaning, and save the extracted and cleaned text to Excel files.
 
-The [multisync.py](https://gitlab.com/-/ide/project/cac-archives/\archives-textract\extracting\multipgexcelsynch.py) script allows for processing various types of files:
+The [multisync.py](https://github.com/prys0000/archives-textract/blob/6a8b31a01a66423b6c66f4a21bdddb8b1e12062e/scripts/multi-page-sync.py) script allows for processing various types of files:
 
 * **EPUB (Electronic Publication):** Textract can extract text from EPUB files. EPUB is a popular file format for e-books, allowing for dynamic content and reflowable text across different devices.
 * **PDF (Portable Document Format):** Textract can process PDF documents and extract text from them. PDF is a common file format used for sharing documents that preserves the formatting and layout across different devices.
@@ -214,16 +214,19 @@ cleaned_text = remove_whitespace(text)
 print(cleaned_text)
 ```
 
+#
 
 
+## student contributors (graduate and undergraduate)
+See [**acknowledgements**](https://github.com/prys0000/political-commercial-collection-archives/blob/main/acknowledgements.md) for more information
 
-## Contributing
+## communication
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+- email: [japryse@ou.edu](japryse@ou.edu) or [cacarchives@ou.edu](cacarchives@ou.edu)
+- homepage: [carl albert center archives](https://www.ou.edu/carlalbertcenter/congressional-collection)
+- twitter: [@CarlAlbertCtr](https://twitter.com/CarlAlbertCtr)
+- finding aid: [https://arc.ou.edu/](https://arc.ou.edu/)
 
-Please make sure to update tests as appropriate.
+## license
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+See [LICENSE](https://github.com/prys0000/congressional-portal-project/blob/main/LICENSE.md) for more information.
