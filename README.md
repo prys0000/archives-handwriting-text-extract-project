@@ -14,7 +14,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Connecting Amazon Textract
  
-Set the AWS access keys, S3 bucket name and AWS region. You will need to create a ['credentials.txt'](https://github.com/prys0000/archives-textract/blob/main/credentials.properties) file to control access and save in the same directory as your Python script.
+Set the AWS access keys, S3 bucket name and AWS region. You will need to create a ['credentials.txt'](https://github.com/prys0000/archives-textract-project/blob/16bc66728e71f6b38287d1f6d4b03701f5752921/scripts/multipgAsynch/credentials.properties) file to control access and save in the same directory as your Python script.
 
 * **AWS region** - AWS region where the S3 bucket and Textract service are located
 aws_region = "  "  # Replace with your desired region
@@ -35,7 +35,7 @@ AWS_REGION=<your desired region>
 S3_BUCKET_NAME=<your-s3-bucket-name>
 ```
 
-Load the ['credentials.txt'](https://github.com/prys0000/archives-textract/blob/main/credentials.properties) file and bucket.
+Load the ['credentials.txt'](https://github.com/prys0000/archives-textract-project/blob/16bc66728e71f6b38287d1f6d4b03701f5752921/scripts/multipgAsynch/credentials.properties) file and bucket.
 ```bash
 with open('credentials.txt', 'r') as file:
     credentials = file.readlines()
@@ -109,9 +109,9 @@ pip install openpyxl
 
 
 # Extracting multi-page handwritten and typewritten text
-The python script [multisync.py](https://github.com/prys0000/archives-textract/blob/6a8b31a01a66423b6c66f4a21bdddb8b1e12062e/scripts/multi-page-sync.py)  demonstrates the usage of Amazon Textract, Amazon S3, NLTK, and the SpellChecker package to extract text from documents stored in an S3 bucket, perform text cleaning, and save the extracted and cleaned text to Excel files.
+The python script [multisync.py](https://github.com/prys0000/archives-textract-project/blob/16bc66728e71f6b38287d1f6d4b03701f5752921/scripts/multipgAsynch/multi-page-sync.py)  demonstrates the usage of Amazon Textract, Amazon S3, NLTK, and the SpellChecker package to extract text from documents stored in an S3 bucket, perform text cleaning, and save the extracted and cleaned text to Excel files.
 
-The [multisync.py](https://github.com/prys0000/archives-textract/blob/6a8b31a01a66423b6c66f4a21bdddb8b1e12062e/scripts/multi-page-sync.py) script allows for processing various types of files:
+The [multisync.py](https://github.com/prys0000/archives-textract-project/blob/16bc66728e71f6b38287d1f6d4b03701f5752921/scripts/multipgAsynch/multi-page-sync.py) script allows for processing various types of files:
 
 * **EPUB (Electronic Publication):** Textract can extract text from EPUB files. EPUB is a popular file format for e-books, allowing for dynamic content and reflowable text across different devices.
 * **PDF (Portable Document Format):** Textract can process PDF documents and extract text from them. PDF is a common file format used for sharing documents that preserves the formatting and layout across different devices.
