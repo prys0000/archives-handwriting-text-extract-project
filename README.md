@@ -6,11 +6,11 @@ The objective of this project is to create a versatile text extraction and clean
 
 Both local and AWS codes extract text from **handwritten** documents, performs text cleaning operations and saves the extracted and cleaned text to the ***existing metadata templates used by the repository***. 
 
-!
+!<img src="https://github.com/prys0000/archives-text-extract-project/blob/main/CAC_CC_001_7_121_3_0034_Page_1.png" width=30% height=30%>    !<img src="https://github.com/prys0000/archives-text-extract-project/blob/main/CAC_CC_001_7_121_3_0066_Page_1.png" width=30% height=30%>    !<img src="https://github.com/prys0000/archives-text-extract-project/blob/main/CAC_CC_001_7_121_3_0130_Page_1.png" width=30% height=30%>
 
 #
 
-Extracting text from handwritten documents and exporting it to metadata worksheets can significantly enhance the efficiency of processing archival collections. Here's how:
+Extracting text from handwritten documents and exporting it to metadata worksheets can **significantly enhance the efficiency** of processing archival collections. Here's how:
 
 **1. Time Efficiency:**
 
