@@ -4,10 +4,9 @@ import nltk
 from spellchecker import SpellChecker
 import time
 import pandas as pd
-from openpyxl import Workbook
 
 # Read AWS credentials and S3 bucket name from credentials.txt file
-with open(r'C:\Users\user\Desktop\TEXTRACT TEST FOLDER\V5\credentials.txt', 'r') as file:
+with open('credentials.txt', 'r') as file:
     credentials = file.readlines()
 
 aws_access_key_id = None
@@ -89,17 +88,28 @@ for obj in response.get('Contents', []):
 
                 # Append the file title and text to the data list
                 data.append({'File Title': object_key, 'Text': text})
+
+                print(f"Text extracted for {object_key}")
+            else:
+                print(f"Error processing {object_key}: Document analysis job failed")
         except Exception as e:
             print(f"Error processing {object_key}: {str(e)}")
-            continue
+    else:
+        print("Object key is None")
 
-# Convert the data list to a pandas DataFrame
+# Create a DataFrame from the extracted text data
 df = pd.DataFrame(data)
 
-# Perform text cleaning tasks
-# ...
-
-# Save the cleaned text data to an Excel file
-excel_file = 'text_data.xlsx'
+# Save the DataFrame to an Excel file
+excel_file = 'extracted_text.xlsx'
 df.to_excel(excel_file, index=False)
-print(f"Text data saved to {excel_file}")
+print(f"Extracted text saved to {excel_file}")
+
+# Call RapidMiner to perform text cleaning
+cleaned_excel_file = 'cleaned_text.xlsx'
+rapidminer_path = r'C:\Program Files\RapidMiner\rapidminer-studio.bat'
+text_cleaning_rmp = 'text_cleaning.rmp'
+
+subprocess.run([rapidminer_path, '-f', text_cleaning_rmp, '-P', f'input_excel_file={excel_file}', '-P', f'output_excel_file={cleaned_excel_file}'])
+
+print(f"Text cleaned and saved to {cleaned_excel_file}")
