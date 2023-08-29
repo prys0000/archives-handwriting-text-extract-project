@@ -6,6 +6,8 @@ The objective of this project is to create a versatile text extraction and clean
 
 Both local and AWS codes extract text from **handwritten** documents, performs text cleaning operations and saves the extracted and cleaned text to the ***existing metadata templates used by the repository***. 
 
+!
+
 #
 
 Extracting text from handwritten documents and exporting it to metadata worksheets can significantly enhance the efficiency of processing archival collections. Here's how:
