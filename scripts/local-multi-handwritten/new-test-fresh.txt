@@ -1,0 +1,29 @@
+Handwriting Test Script Notes:
+
+1. Import Necessary Libraries:
+   - Essential libraries are imported to handle operations related to PDFs, OCR, text analysis, and Excel output.
+
+2. OCR Functionality:
+   - Tesseract, an open-source OCR engine, is configured to extract text from images.
+   - The `ocr_pdf` function converts each page of a provided PDF into an image. It then uses Tesseract to recognize and extract the text from each image.
+
+3. File & Directory Handling:
+   - The script scans a predefined directory for PDF files.
+   - For each detected PDF, it extracts the text content and saves the filename and its corresponding extracted text.
+
+4. Predefined Texts:
+   - The script reads a CSV file which contains predefined texts that are considered for matching against the extracted content from the PDFs.
+
+5. Keyword Extraction:
+   - For each extracted text from the PDFs, the script identifies keywords using the `CountVectorizer` from scikit-learn. This vectorizer counts the occurrence of words in the document and considers those that appear more than twice as keywords.
+
+6. Matching with Predefined Texts:
+   - The script then checks if there are any common words between the extracted keywords from the PDF and the words in the predefined texts.
+   - It captures up to three predefined texts that have the most common words with the extracted content.
+
+7. Spelling Correction:
+   - The TextBlob library is utilized to correct potential spelling mistakes in the extracted content.
+
+8. Exporting to Excel:
+   - The results, including filename, extracted (and corrected) text, and up to three matched predefined texts, are written to an Excel file.
+   - Additionally, words in the extracted content that were corrected by TextBlob are highlighted in red in the Excel output for easy identification.
