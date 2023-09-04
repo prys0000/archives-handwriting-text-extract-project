@@ -1,6 +1,6 @@
 <img src="https://github.com/prys0000/archives-textract/blob/b136eb96469361dac4b2a0d4eaa7093c12053efc/a-t.jpg" width=10% height=13%>
 
-# archives-textract
+# archives-handwriting-text-extraction
 
 The objective of this project is to create a versatile text extraction and cleaning tool. It leverages the features provided by [**Amazon Textract**](https://aws.amazon.com/textract/?nc2=type_a) and offers customizable processes. This flexibility allows the tool to align with specific repository or project requirements, as well as facilitate **local file processing**.
 
