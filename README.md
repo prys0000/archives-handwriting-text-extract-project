@@ -39,7 +39,7 @@ Extracting text from handwritten documents and exporting it to metadata workshee
 
 
 ## student contributors (graduate and undergraduate)
-See [**acknowledgements**]((https://github.com/prys0000/archives-handwriting-text-extract-project/blob/63fb7e0d4e22ac319c26692f576d48b2a065b611/acknowledgements.md) for more information
+See [**acknowledgements**](https://github.com/prys0000/archives-handwriting-text-extract-project/blob/63fb7e0d4e22ac319c26692f576d48b2a065b611/acknowledgements.md) for more information
 
 ## communication
 
